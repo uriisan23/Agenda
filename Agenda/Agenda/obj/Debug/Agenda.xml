@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Agenda
+</name>
+</assembly>
+<members>
+<member name="T:Agenda.agendaBDDataSet.actividadesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.PrioridadesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.RegistroHrsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.RegistrosViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.DiasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.TipoHrsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.actividadesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.PrioridadesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.RegistroHrsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.RegistrosViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.DiasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.TipoHrsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.actividadesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.PrioridadesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.RegistroHrsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.RegistrosViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.DiasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet.TipoHrsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Agenda.agendaBDDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.actividadesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.PrioridadesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.RegistroHrsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.RegistrosViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.DiasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.TipoHrsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Agenda.agendaBDDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Agenda.agendaBDDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Agenda.agendaBDDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager.UpdateAll(Agenda.agendaBDDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Agenda.agendaBDDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Agenda.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Agenda.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Agenda.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
